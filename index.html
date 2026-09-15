@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VANTA WATCH — Наручные часы</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        VANTA WATCH
+    </div>
+
+    <div class="header-right">
+
+        <a
+            class="telegram"
+            href="https://t.me/tvoya_smertt"
+            target="_blank"
+        >
+            Telegram
+        </a>
+
+        <button
+            class="cart-header"
+            id="cartButton"
+            type="button"
+        >
+            🛒 Корзина
+
+            <span id="cartCount">
+                0
+            </span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     ГЛАВНЫЙ ЭКРАН
+========================= -->
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <p>VANTA WATCH</p>
+
+        <h1>
+            Время.<br>
+            Твой стиль.
+        </h1>
+
+        <p>
+            Наручные часы, которые
+            дополняют твой образ.
+            Выбирай свою модель
+            в каталоге VANTA WATCH.
+        </p>
+
+        <a
+            class="button"
+            href="#catalog"
+        >
+            Смотреть каталог
+        </a>
+
+    </div>
+
+
+    <div class="hero-watch">
+
+        <img
+            src="images/watch1.png"
+            alt="VANTA WATCH"
+        >
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     КАТАЛОГ
+========================= -->
+
+<section
+    class="section catalog"
+    id="catalog"
+>
+
+    <h2>
+        Каталог
+    </h2>
+
+
+    <div class="products">
+
+
+        <!-- ТОВАР 1 -->
+
+        <div class="product">
+
+            <div class="product-image">
+
+                <img
+                    src="images/watch1.png"
+                    alt="Полностью серебряные часы"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Полностью серебряные
+                </h3>
+
+                <p class="product-description">
+                    Сдержанная серебряная модель
+                    VANTA WATCH на каждый день.
+                </p>
+
+                <div class="product-bottom">
+
+                    <strong>
+                        1 450 ₽
+                    </strong>
+
+                    <a
+                        href="#"
+                        onclick="openProduct(
+                            'Полностью серебряные',
+                            '1 450 ₽',
+                            'images/watch1.png',
+                            'Сдержанная серебряная модель VANTA WATCH на каждый день.'
+                        ); return false;"
+                    >
+                        Подробнее
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ТОВАР 2 -->
+
+        <div class="product">
+
+            <div class="product-image">
+
+                <img
+                    src="images/watch2.png"
+                    alt="Черно-серебряные WCS25-2"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Черно-серебряные WCS25-2
+                </h3>
+
+                <p class="product-description">
+                    Контрастная черно-серебряная
+                    модель с современным дизайном.
+                </p>
+
+                <div class="product-bottom">
+
+                    <strong>
+                        1 380 ₽
+                    </strong>
+
+                    <a
+                        href="#"
+                        onclick="openProduct(
+                            'Черно-серебряные WCS25-2',
+                            '1 380 ₽',
+                            'images/watch2.png',
+                            'Контрастная черно-серебряная модель с современным дизайном.'
+                        ); return false;"
+                    >
+                        Подробнее
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ТОВАР 3 -->
+
+        <div class="product">
+
+            <div class="product-image">
+
+                <img
+                    src="images/watch3.png"
+                    alt="Черные WCS25-3"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Черные WCS25-3
+                </h3>
+
+                <p class="product-description">
+                    Чёрная модель VANTA WATCH
+                    в строгом минималистичном стиле.
+                </p>
+
+                <div class="product-bottom">
+
+                    <strong>
+                        1 380 ₽
+                    </strong>
+
+                    <a
+                        href="#"
+                        onclick="openProduct(
+                            'Черные WCS25-3',
+                            '1 380 ₽',
+                            'images/watch3.png',
+                            'Чёрная модель VANTA WATCH в строгом минималистичном стиле.'
+                        ); return false;"
+                    >
+                        Подробнее
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ПОЧЕМУ VANTA WATCH
+========================= -->
+
+<section class="section">
+
+    <h2>
+        Почему VANTA WATCH?
+    </h2>
+
+    <div class="info">
+
+        <div class="card">
+
+            <h3>
+                ⌚ Часы
+            </h3>
+
+            <p>
+                Подборка наручных часов
+                в разных стилях.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                📸 Фотографии
+            </h3>
+
+            <p>
+                Для каждой модели можно
+                добавить подробные фотографии
+                и описание.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                💬 Telegram
+            </h3>
+
+            <p>
+                Вопросы и покупка
+                через наш Telegram.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <p>
+        VANTA WATCH
+    </p>
+
+    <a
+        href="https://t.me/tvoya_smertt"
+        target="_blank"
+    >
+        Написать в Telegram
+    </a>
+
+    <p>
+        © 2026 VANTA WATCH
+    </p>
+
+</footer>
+
+
+<!-- =========================
+     ОКНО ТОВАРА
+========================= -->
+
+<div
+    class="product-modal"
+    id="productModal"
+>
+
+    <div class="modal-content">
+
+        <button
+            class="modal-close"
+            onclick="closeProduct()"
+            type="button"
+        >
+            ×
+        </button>
+
+
+        <img
+            id="modalImage"
+            src=""
+            alt="Товар"
+        >
+
+
+        <div class="modal-info">
+
+            <h2 id="modalName">
+                Название товара
+            </h2>
+
+            <p id="modalDescription">
+                Описание товара
+            </p>
+
+            <strong id="modalPrice">
+                0 ₽
+            </strong>
+
+
+            <div class="modal-actions">
+
+                <a
+                    class="modal-button"
+                    id="modalButton"
+                    href="#"
+                    target="_blank"
+                >
+                    Написать в Telegram
+                </a>
+
+                <button
+                    class="cart-button"
+                    id="addToCartButton"
+                    type="button"
+                >
+                    🛒 В корзину
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     КОРЗИНА
+========================= -->
+
+<div
+    class="cart-modal"
+    id="cartModal"
+>
+
+    <div class="cart-content">
+
+        <button
+            class="modal-close"
+            id="closeCart"
+            type="button"
+        >
+            ×
+        </button>
+
+
+        <h2>
+            Корзина
+        </h2>
+
+
+        <div
+            class="cart-items"
+            id="cartItems"
+        ></div>
+
+
+        <div class="cart-total">
+
+            <span>
+                Итого:
+            </span>
+
+            <strong id="cartTotal">
+                0 ₽
+            </strong>
+
+        </div>
+
+
+        <a
+            class="cart-order"
+            id="cartOrder"
+            href="#"
+            target="_blank"
+        >
+            Оформить заказ в Telegram
+        </a>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
