@@ -462,7 +462,7 @@ function updateTelegramOrder() {
 
 
     cartOrder.href =
-        "https://t.me/tvoya_smertt?text=" +
+        "https://t.me/vantawatch_shop?direct?text=" +
         encodeURIComponent(message);
 
 }
